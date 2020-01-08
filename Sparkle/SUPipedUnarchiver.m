@@ -32,7 +32,7 @@
     
     NSDictionary <NSString *, NSArray<NSString *> *> *extractCommandDictionary =
     @{
-      @".zip" : @[@"/usr/bin/ditto", @"-x",@"-k",@"-"],
+      @".zip" : @[@"/usr/bin/ditto", @"-x",@"-k"],
       @".tar" : @[@"/usr/bin/tar", @"-xC"],
       @".tar.gz" : extractTGZ,
       @".tgz" : extractTGZ,
